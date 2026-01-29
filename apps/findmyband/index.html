@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Find My Band</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="../../css/styles.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>Find My Band</h1>
+    <p>GPS test app for band tracking.</p>
+  </header>
+
+  <main class="content">
+    <a href="../../index.html" class="back-link">&larr; Back to all apps</a>
+
+    <section class="app">
+      <h2>Use Find My Band in your browser</h2>
+      <p>Opens the web version if you build a Flutter Web version.</p>
+      <!-- Use "#" for now if you don't have a web build yet -->
+      <a href="#" class="btn">Open Web App</a>
+    </section>
+
+    <section class="app">
+      <h2>Download Android APK</h2>
+      <p>Use this APK for GPS testing.</p>
+      <a href="download.html" class="btn">Download APK</a>
+    </section>
+
+    <section class="app">
+      <h2>How to install the APK (Android)</h2>
+      <ol>
+        <li>Tap “Download APK” above.</li>
+        <li>Open the downloaded file from your browser or Downloads.</li>
+        <li>Allow installs from this source if Android blocks it.</li>
+        <li>Tap “Install”, then open the app.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Find My Band</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

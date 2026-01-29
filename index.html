@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Apps</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>My Apps</h1>
+    <p>All my apps in one place.</p>
+  </header>
+
+  <main class="content">
+    <section class="app">
+      <h2>Shop868</h2>
+      <p>Classifieds and marketplace.</p>
+      <a href="apps/shop868/index.html" class="btn">Open Shop868 page</a>
+    </section>
+
+    <section class="app">
+      <h2>Find My Band</h2>
+      <p>GPS band tracker (testing).</p>
+      <a href="apps/findmyband/index.html" class="btn">Open Find My Band page</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> My Apps</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

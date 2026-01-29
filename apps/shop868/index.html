@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Shop868</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="../../css/styles.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>Shop868</h1>
+    <p>Classifieds and marketplace.</p>
+  </header>
+
+  <main class="content">
+    <a href="../../index.html" class="back-link">&larr; Back to all apps</a>
+
+    <section class="app">
+      <h2>Use Shop868 in your browser</h2>
+      <p>Opens the Shop868 web version built with Flutter and hosted on this site.</p>
+      <!-- Local Flutter web build goes in apps/shop868/web/ -->
+      <a href="web/index.html" class="btn">Open Web App</a>
+    </section>
+
+    <section class="app">
+      <h2>How to “install” on your phone</h2>
+      <ol>
+        <li>Open this page in Chrome (Android) or Safari (iPhone).</li>
+        <li>Use the browser menu and choose “Add to Home screen”.</li>
+        <li>Launch Shop868 from the icon like a normal app.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Shop868</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
